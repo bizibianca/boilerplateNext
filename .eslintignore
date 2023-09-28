@@ -1,2 +1,6 @@
 !.storybook
 !.jest
+**/*.png
+**/*.svg
+**/*.css
+src/assets/
