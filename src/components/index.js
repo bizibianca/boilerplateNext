@@ -1,23 +1,23 @@
 import Navbar from './Navbar/navbar'
-import Billing from './Billing/billing'
-import CardDeal from './CardDeal/cardDeal'
-import Business from './Business/business'
 import Clients from './Clients/clients'
-import CTA from './CTA/cta'
-import Stats from './Stats/stats'
-import Footer from './Footer/footer'
-import Testimonials from './Testimonials/testimonials'
-import Hero from './Hero/hero'
+import SectionStats from 'components/SectionStats'
+import SectionBusiness from 'components/SectionBusiness'
+import SectionBilling from 'components/SectionBilling'
+import SectionCardDeal from 'components/SectionCardDeal'
+import SectionTestimonials from 'components/SectionTestimonials'
+import SectionClients from 'components/SectionClients'
+import SectionCTA from 'components/SectionCTA'
+import SectionFooter from 'components/SectionFooter'
 
 export {
   Navbar,
-  Billing,
-  CardDeal,
-  Business,
   Clients,
-  CTA,
-  Stats,
-  Footer,
-  Testimonials,
-  Hero
+  SectionStats,
+  SectionBusiness,
+  SectionBilling,
+  SectionCardDeal,
+  SectionTestimonials,
+  SectionClients,
+  SectionCTA,
+  SectionFooter
 }

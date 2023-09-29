@@ -6,6 +6,18 @@ import GET_LANDING_PAGE from 'graphql/queries/getLandingPage'
 import { LandingPageProps } from 'types/api'
 
 import styles from '../style'
+import { Business, Stats } from 'components'
+
+import {
+  SectionStats,
+  SectionBusiness,
+  SectionBilling,
+  SectionCardDeal,
+  SectionTestimonials,
+  SectionClients,
+  SectionCTA,
+  SectionFooter
+} from '../components/index'
 
 const Index = ({ logo }: LandingPageProps) => (
   <>
@@ -15,14 +27,14 @@ const Index = ({ logo }: LandingPageProps) => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
-        <Footer /> */}
+        <SectionStats />
+        <SectionBusiness />
+        <SectionBilling />
+        <SectionCardDeal />
+        <SectionTestimonials />
+        <SectionClients />
+        <SectionCTA />
+        <SectionFooter />
       </div>
     </div>
   </>
